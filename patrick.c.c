@@ -1,4 +1,8 @@
-
+/* 
+    AUTHOR:MUTINDA PATRICK
+    ADMISSION NUMBER: D33-0197-2022
+    */
+    
 #include<stdio.h>
 
 int main(){
