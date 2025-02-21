@@ -1,20 +1,21 @@
-/* 
-    AUTHOR:MUTINDA PATRICK
-    ADMISSION NUMBER: D33-0197-2022
-    */
-    
-#include<stdio.h>
 
+/*
+STUDENT NAME: MUTINDA PATRICK
+ADMISSION NO: D33-0197-2022
+*/
+//programing
+#include<stdio.h>//printf(),scanf()
 int main(){
-    int length, width,area;
-    printf("Program to find the area of rectangle: \n"); 
-    printf("Enter the length: \n");
-    scanf("%d",&length);
-    printf("Enter the width:\n");
-    scanf("%d",&width);
-    area=length*width;
-    printf("The area is %d", area);
-    return 0;
-    
-    
+  // variable declaration and initialization
+ int l;
+ int w;
+ int area;
+printf("program to find the area: \n") ;
+printf("Enter the length:\n") ;
+scanf("%d", & l) ;
+printf("Enter the width:\n");
+scanf("%d",& w);
+area=l*w;
+printf("The area is %d",area);
+return 0;//execution successiful
 }
